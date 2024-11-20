@@ -1,0 +1,41 @@
+server:
+  address: 0.0.0.0
+  port: 9527
+
+#数据库配置
+spring:
+  servlet:
+    multipart:
+      max-file-size: 30MB
+      max-request-size: 30MB
+
+  mvc:
+    static-path-pattern: /static/**
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://rm-2evsv9m791385354muo.mysql.rds.aliyuncs.com:3306/video?useSSL=false&serverTimezone=UTC
+    username: root
+    password: "@Maoguodong200323"
+    hikari:
+      ddl-auto: update
+      minimum-idle: 5
+      maximum-pool-size: 15
+      max-lifetime: 18000000
+      connection-timeout: 2000000
+      auto-commit: true
+      idle-timeout: 300000
+
+  web:
+    resources:
+      static-locations: classpath:/static,file:config
+
+#控制台打印SQL语句
+#mybatis-plus:
+#  configuration:
+#    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+#  mapper-locations: classpath:/mapper/**/*.xml
+
+file:
+  upload:
+#    path: /Users/adong/Desktop/Projects/video-api/config
+    path: ${UPLOAD_PATH:/opt/video-api/config}

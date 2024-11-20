@@ -1,0 +1,16 @@
+/Users/adong/Desktop/video-api/src/main/java/com/huangk/error/ErrorEnum.java
+/Users/adong/Desktop/video-api/src/main/java/com/huangk/controller/VideoController.java
+/Users/adong/Desktop/video-api/src/main/java/com/huangk/base/R.java
+/Users/adong/Desktop/video-api/src/main/java/com/huangk/service/IImageService.java
+/Users/adong/Desktop/video-api/src/main/java/com/huangk/error/BizException.java
+/Users/adong/Desktop/video-api/src/main/java/com/huangk/controller/UploadController.java
+/Users/adong/Desktop/video-api/src/main/java/com/huangk/entity/Image.java
+/Users/adong/Desktop/video-api/src/main/java/com/huangk/service/impl/ImageServiceImpl.java
+/Users/adong/Desktop/video-api/src/main/java/com/huangk/config/GlobalExceptionHandler.java
+/Users/adong/Desktop/video-api/src/main/java/com/huangk/config/MybatisPlusConfig.java
+/Users/adong/Desktop/video-api/src/main/java/com/huangk/service/impl/VideoServiceImpl.java
+/Users/adong/Desktop/video-api/src/main/java/com/huangk/error/IError.java
+/Users/adong/Desktop/video-api/src/main/java/com/huangk/service/IVideoService.java
+/Users/adong/Desktop/video-api/src/main/java/com/huangk/VideoApplication.java
+/Users/adong/Desktop/video-api/src/main/java/com/huangk/entity/Video.java
+/Users/adong/Desktop/video-api/src/main/java/com/huangk/mapper/VideoMapper.java

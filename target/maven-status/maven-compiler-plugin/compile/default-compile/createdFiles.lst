@@ -1,0 +1,16 @@
+com/huangk/config/GlobalExceptionHandler.class
+com/huangk/controller/UploadController.class
+com/huangk/service/IVideoService.class
+com/huangk/config/MybatisPlusConfig.class
+com/huangk/error/ErrorEnum.class
+com/huangk/mapper/VideoMapper.class
+com/huangk/VideoApplication.class
+com/huangk/error/BizException.class
+com/huangk/entity/Image.class
+com/huangk/service/impl/ImageServiceImpl.class
+com/huangk/entity/Video.class
+com/huangk/error/IError.class
+com/huangk/base/R.class
+com/huangk/controller/VideoController.class
+com/huangk/service/impl/VideoServiceImpl.class
+com/huangk/service/IImageService.class
